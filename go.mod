@@ -1,4 +1,4 @@
-module github.com/revel/revel
+module github.com/str20tbl/revel
 
 go 1.24.0
 
@@ -12,7 +12,8 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/revel/config v1.1.0
 	github.com/revel/log15 v2.11.20+incompatible
-	github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9
+	github.com/revel/revel v1.1.0
+	github.com/str20tbl/pathtree v0.0.0-20140121041023-41257a1839e9
 	github.com/stretchr/testify v1.11.1
 	github.com/xeonx/timeago v1.0.0-rc5
 	golang.org/x/net v0.46.0
@@ -25,6 +26,7 @@ require (
 	github.com/inconshreveable/log15 v2.16.0+incompatible // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9 // indirect
 	golang.org/x/sys v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
