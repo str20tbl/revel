@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/revel/revel"
+	"github.com/str20tbl/revel"
 )
 
 // RedisCache wraps the Redis client to meet the Cache interface.

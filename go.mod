@@ -12,7 +12,6 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/revel/config v1.1.0
 	github.com/revel/log15 v2.11.20+incompatible
-	github.com/revel/revel v1.1.0
 	github.com/str20tbl/pathtree v0.0.0-20140121041023-41257a1839e9
 	github.com/stretchr/testify v1.11.1
 	github.com/xeonx/timeago v1.0.0-rc5

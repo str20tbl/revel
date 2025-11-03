@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/revel/revel/session"
+	"github.com/str20tbl/revel/session"
 )
 
 type (

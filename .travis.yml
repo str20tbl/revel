@@ -19,7 +19,7 @@ branches:
     - develop
 
 services:
-  # github.com/revel/revel/cache
+  # github.com/str20tbl/revel/cache
   - memcache
   - redis-server
 
@@ -52,14 +52,14 @@ install:
   - git clone -b $REVEL_BRANCH git://github.com/revel/config ../config/
   - git clone -b $REVEL_BRANCH git://github.com/revel/cron ../cron/
   - git clone -b $REVEL_BRANCH git://github.com/revel/examples ../examples/
-  - go get -t -v github.com/revel/revel/...
+  - go get -t -v github.com/str20tbl/revel/...
 
 script:
   - |
     if [[ "$TRAVIS_OS_NAME" != "windows" ]]; then
-      go test -v github.com/revel/revel/...
+      go test -v github.com/str20tbl/revel/...
     else
-      go test -v github.com/revel/revel/.
+      go test -v github.com/str20tbl/revel/.
     fi
 
 matrix:

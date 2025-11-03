@@ -1,7 +1,7 @@
 tmp/
 routes/
 test-results/
-revel/revel
+str20tbl/revel
 
 # editor
 *.swp

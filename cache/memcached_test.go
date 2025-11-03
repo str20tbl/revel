@@ -22,9 +22,8 @@ var newMemcachedCache = func(t *testing.T, defaultExpiration time.Duration) Cach
 		_ = c.Close()
 		return NewMemcachedCache([]string{testServer}, defaultExpiration)
 	}
-	t.Errorf("couldn't connect to memcached on %s", testServer)
-	t.FailNow()
-	panic("")
+	t.Skipf("skipping test: couldn't connect to memcached on %s", testServer)
+	return nil
 }
 
 func TestMemcachedCache_TypicalGetSet(t *testing.T) {

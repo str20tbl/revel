@@ -770,7 +770,7 @@ func RouterFilter(c *Controller, fc []Filter) {
 	// Figure out the Controller/Action
 	route := MainRouter.Route(c.Request)
 	if route == nil {
-		c.Result = c.NotFound("No matching route found: " + c.Request.GetRequestURI())
+		c.Result = c.NotFound("No matching route found: %s", c.Request.GetRequestURI())
 		return
 	}
 
@@ -782,7 +782,7 @@ func RouterFilter(c *Controller, fc []Filter) {
 
 	// Set the action.
 	if err := c.SetTypeAction(route.ControllerName, route.MethodName, route.TypeOfController); err != nil {
-		c.Result = c.NotFound(err.Error())
+		c.Result = c.NotFound("%v", err)
 		return
 	}
 

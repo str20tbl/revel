@@ -20,8 +20,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/revel/revel"
-	"github.com/revel/revel/session"
+	"github.com/str20tbl/revel"
+	"github.com/str20tbl/revel/session"
 	"golang.org/x/net/websocket"
 )
 
@@ -61,6 +61,7 @@ func NewTestSuiteEngine(engine revel.SessionEngine) TestSuite {
 
 // NewTestRequest returns an initialized *TestRequest. It is used for extending
 // testsuite package making it possible to define own methods. Example:
+//
 //	type MyTestSuite struct {
 //		testing.TestSuite
 //	}

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/revel/config"
-	"github.com/revel/revel"
+	"github.com/str20tbl/revel"
 )
 
 // These tests require redis server running on localhost:6379 (the default).
@@ -32,9 +32,8 @@ var newRedisCache = func(t *testing.T, defaultExpiration time.Duration) Cache {
 		}
 		return redisCache
 	}
-	t.Errorf("couldn't connect to redis on %s", redisTestServer)
-	t.FailNow()
-	panic("")
+	t.Skipf("skipping test: couldn't connect to redis on %s", redisTestServer)
+	return nil
 }
 
 func TestRedisCache_TypicalGetSet(t *testing.T) {
