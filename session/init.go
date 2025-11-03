@@ -1,7 +1,7 @@
 package session
 
 // The logger for the session.
-import "github.com/str20tbl/str20tbl/logger"
+import "github.com/str20tbl/revel/logger"
 
 var sessionLog logger.MultiLogger
 

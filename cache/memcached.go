@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/str20tbl/str20tbl/logger"
+	"github.com/str20tbl/revel/logger"
 )
 
 // MemcachedCache wraps the Memcached client to meet the Cache interface.

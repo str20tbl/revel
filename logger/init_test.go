@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/str20tbl/config"
-	"github.com/str20tbl/str20tbl/logger"
+	"github.com/str20tbl/revel/logger"
 	"github.com/stretchr/testify/assert"
 )
 

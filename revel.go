@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/str20tbl/config"
-	"github.com/str20tbl/str20tbl/logger"
-	"github.com/str20tbl/str20tbl/model"
+	"github.com/str20tbl/revel/logger"
+	"github.com/str20tbl/revel/model"
 )
 
 const (

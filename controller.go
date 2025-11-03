@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/str20tbl/str20tbl/logger"
-	"github.com/str20tbl/str20tbl/session"
-	"github.com/str20tbl/str20tbl/utils"
+	"github.com/str20tbl/revel/logger"
+	"github.com/str20tbl/revel/session"
+	"github.com/str20tbl/revel/utils"
 )
 
 // Controller Revel's controller structure that gets embedded in user defined

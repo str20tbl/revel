@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/str20tbl/revel"
-	"github.com/str20tbl/str20tbl/session"
+	"github.com/str20tbl/revel/session"
 )
 
 func TestMisc(t *testing.T) {
