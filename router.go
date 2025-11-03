@@ -9,7 +9,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -17,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/revel/pathtree"
-	"github.com/revel/revel/logger"
+	"github.com/str20tbl/pathtree"
+	"github.com/str20tbl/revel/logger"
 )
 
 const (
@@ -429,7 +428,7 @@ func splitActionPath(actionPathData *ActionPathData, actionPath string, useCache
 
 // parseRoutesFile reads the given routes file and returns the contained routes.
 func parseRoutesFile(moduleSource *Module, routesPath, joinedPath string, validate bool) ([]*Route, *Error) {
-	contentBytes, err := ioutil.ReadFile(routesPath)
+	contentBytes, err := os.ReadFile(routesPath)
 	if err != nil {
 		return nil, &Error{
 			Title:       "Failed to load routes file",
@@ -540,7 +539,7 @@ func routeError(err error, routesPath, content string, n int) *Error {
 	}
 	// Load the route file content if necessary
 	if content == "" {
-		if contentBytes, er := ioutil.ReadFile(routesPath); er != nil {
+		if contentBytes, er := os.ReadFile(routesPath); er != nil {
 			routerLog.Error("routeError: Failed to read route file ", "file", routesPath, "error", er)
 		} else {
 			content = string(contentBytes)

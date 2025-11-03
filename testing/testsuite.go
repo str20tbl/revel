@@ -8,7 +8,6 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"mime"
 	"mime/multipart"
 	"net/http"
@@ -266,7 +265,7 @@ func (r *TestRequest) MakeRequest() {
 	if r.testSuite.Response, err = r.testSuite.Client.Do(r.Request); err != nil {
 		panic(err)
 	}
-	if r.testSuite.ResponseBody, err = ioutil.ReadAll(r.testSuite.Response.Body); err != nil {
+	if r.testSuite.ResponseBody, err = io.ReadAll(r.testSuite.Response.Body); err != nil {
 		panic(err)
 	}
 

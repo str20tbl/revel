@@ -7,7 +7,6 @@ package revel
 import (
 	"bytes"
 	"io"
-	"io/ioutil"
 	"net"
 	"net/http"
 	"net/url"
@@ -58,7 +57,7 @@ func MustReadLines(filename string) []string {
 
 // ReadLines reads the lines of the given file.  Panics in the case of error.
 func ReadLines(filename string) ([]string, error) {
-	dataBytes, err := ioutil.ReadFile(filename)
+	dataBytes, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err
 	}
