@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/str20tbl/revel"
-	"github.com/str20tbl/revel/session"
+	"github.com/str20tbl/str20tbl/session"
 	"golang.org/x/net/websocket"
 )
 

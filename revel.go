@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/revel/config"
-	"github.com/str20tbl/revel/logger"
-	"github.com/str20tbl/revel/model"
+	"github.com/str20tbl/config"
+	"github.com/str20tbl/str20tbl/logger"
+	"github.com/str20tbl/str20tbl/model"
 )
 
 const (
@@ -52,7 +52,7 @@ var (
 
 	// ConfPaths where to look for configurations
 	// Config load order
-	// 1. framework (revel/conf/*)
+	// 1. framework (str20tbl/conf/*)
 	// 2. application (conf/*)
 	// 3. user supplied configs (...) - User configs can override/add any from above.
 	ConfPaths []string
@@ -131,7 +131,7 @@ func Init(inputmode, importPath, srcPath string) {
 	}
 
 	// Config load order
-	// 1. framework (revel/conf/*)
+	// 1. framework (str20tbl/conf/*)
 	// 2. application (conf/*)
 	// 3. user supplied configs (...) - User configs can override/add any from above
 	ConfPaths = append(

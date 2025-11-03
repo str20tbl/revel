@@ -14,7 +14,7 @@ Current Version: 1.1.0 (2022-04-11)
 
 Install Revel:
 
-	go install github.com/revel/cmd/revel@latest
+	go install github.com/str20tbl/cmd/revel@latest
 
 
 Create & Run your app:
@@ -26,28 +26,28 @@ Open http://localhost:9000 in your browser and you should see "It works!"
 
 ## Community
 
-* [Gitter](https://gitter.im/revel/community)
+* [Gitter](https://gitter.im/str20tbl/community)
 * [StackOverflow](https://stackoverflow.com/questions/tagged/revel)
 
 
 ## Learn More
 
 * [Manual, Samples, Godocs, etc](https://revel.github.io)
-* [Apps using Revel](https://github.com/str20tbl/revel/wiki/Apps-in-the-Wild)
-* [Articles Featuring Revel](https://github.com/str20tbl/revel/wiki/Articles)
+* [Apps using Revel](https://github.com/str20tbl/str20tbl/wiki/Apps-in-the-Wild)
+* [Articles Featuring Revel](https://github.com/str20tbl/str20tbl/wiki/Articles)
 
 ## Contributing
 
-* [Contributing Code Guidelines](https://github.com/str20tbl/revel/blob/master/CONTRIBUTING.md)
-* [Revel Contributors](https://github.com/str20tbl/revel/graphs/contributors)
+* [Contributing Code Guidelines](https://github.com/str20tbl/str20tbl/blob/master/CONTRIBUTING.md)
+* [Revel Contributors](https://github.com/str20tbl/str20tbl/graphs/contributors)
 
 ## Contributors
 
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/0)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/0)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/1)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/1)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/2)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/2)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/3)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/3)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/4)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/4)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/5)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/5)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/6)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/6)
-[![](https://sourcerer.io/fame/notzippy/str20tbl/revel/images/7)](https://sourcerer.io/fame/notzippy/str20tbl/revel/links/7)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/0)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/0)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/1)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/1)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/2)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/2)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/3)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/3)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/4)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/4)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/5)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/5)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/6)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/6)
+[![](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/images/7)](https://sourcerer.io/fame/notzippy/str20tbl/str20tbl/links/7)

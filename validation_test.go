@@ -83,7 +83,7 @@ func TestValidationNoKeepCookiePreviouslySet(t *testing.T) {
 }
 
 func TestValidateMessageKey(t *testing.T) {
-	Init("prod", "github.com/str20tbl/revel/testdata", "")
+	Init("prod", "github.com/str20tbl/str20tbl/testdata", "")
 	loadMessages(testDataPath)
 
 	// Assert that we have the expected number of languages

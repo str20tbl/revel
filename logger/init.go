@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/revel/config"
+	"github.com/str20tbl/config"
 )
 
 func InitializeFromConfig(basePath string, config *config.Context) (c *CompositeMultiHandler) {

@@ -237,7 +237,7 @@ func ReverseURL(args ...interface{}) (template.URL, error) {
 	// Note method name is case insensitive search
 	methodType := pathData.TypeOfController.Method(pathData.MethodName)
 	if methodType == nil {
-		return "", errors.New("revel/controller: In " + action + " failed to find function " + pathData.MethodName)
+		return "", errors.New("str20tbl/controller: In " + action + " failed to find function " + pathData.MethodName)
 	}
 
 	if len(methodType.Args) < len(args)-1 {

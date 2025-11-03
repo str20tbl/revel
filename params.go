@@ -84,11 +84,11 @@ func ParseParams(params *Params, req *Request) {
 func (p *Params) Bind(dest interface{}, name string) {
 	value := reflect.ValueOf(dest)
 	if value.Kind() != reflect.Ptr {
-		paramsLogger.Panic("Bind: revel/params: non-pointer passed to Bind: " + name)
+		paramsLogger.Panic("Bind: str20tbl/params: non-pointer passed to Bind: " + name)
 	}
 	value = value.Elem()
 	if !value.CanSet() {
-		paramsLogger.Panic("Bind: revel/params: non-settable variable passed to Bind: " + name)
+		paramsLogger.Panic("Bind: str20tbl/params: non-settable variable passed to Bind: " + name)
 	}
 
 	// Remove the json from the Params, this will stop the binder from attempting

@@ -37,7 +37,7 @@ func (c InMemoryCache) Get(key string, ptrValue interface{}) error {
 		return nil
 	}
 
-	err := fmt.Errorf("revel/cache: attempt to get %s, but can not set value %v", key, v)
+	err := fmt.Errorf("str20tbl/cache: attempt to get %s, but can not set value %v", key, v)
 	cacheLog.Error(err.Error())
 	return err
 }

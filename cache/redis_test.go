@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/revel/config"
+	"github.com/str20tbl/config"
 	"github.com/str20tbl/revel"
 )
 

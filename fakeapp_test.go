@@ -136,7 +136,7 @@ func registerControllers() {
 }
 
 func startFakeBookingApp() {
-	Init("prod", "github.com/str20tbl/revel/testdata", "")
+	Init("prod", "github.com/str20tbl/str20tbl/testdata", "")
 
 	MainTemplateLoader = NewTemplateLoader([]string{ViewsPath, filepath.Join(RevelPath, "templates")})
 	if err := MainTemplateLoader.Refresh(); err != nil {

@@ -25,7 +25,7 @@ The first step to making Revel better is joining the community! You can find the
 community on:
 
 * [Google Groups](https://groups.google.com/forum/#!forum/revel-framework) via [revel-framework@googlegroups.com](mailto:revel-framework@googlegroups.com)
-* [GitHub Issues](https://github.com/str20tbl/revel/issues)
+* [GitHub Issues](https://github.com/str20tbl/str20tbl/issues)
 * [StackOverflow Questions](http://stackoverflow.com/questions/tagged/revel)
 * [IRC](http://webchat.freenode.net/?channels=%23revel&uio=d4) via #revel on Freenode
 
@@ -109,7 +109,7 @@ $ go test github.com/str20tbl/revel
 ```
 
 Refer to the
-[Travis configuration](https://github.com/str20tbl/revel/blob/master/.travis.yml)
+[Travis configuration](https://github.com/str20tbl/str20tbl/blob/master/.travis.yml)
 for the full set of tests.  They take less than a minute to run.
 
 ### Document Your Feature
@@ -144,7 +144,7 @@ Once you've done all of the above & pushed your changes to your fork, you can cr
 
 These are outstanding feature requests, roughly ordered by priority.
 Additionally, there are frequently smaller feature requests or items in the
-[issues](https://github.com/str20tbl/revel/issues?labels=contributor+ready&page=1&state=open).
+[issues](https://github.com/str20tbl/str20tbl/issues?labels=contributor+ready&page=1&state=open).
 
 1.	Better ORM support.  Provide more samples (or modules) and better documentation for setting up common situations like SQL database, Mongo, LevelDB, etc.
 1.	Support for other templating languages (e.g. mustache, HAML).  Make TemplateLoader pluggable.  Use Pongo instead of vanilla Go templates (and update the samples)

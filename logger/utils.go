@@ -3,7 +3,7 @@ package logger
 import (
 	"log"
 
-	"github.com/revel/log15"
+	"github.com/str20tbl/log15"
 	"gopkg.in/stack.v0"
 )
 

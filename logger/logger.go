@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/revel/config"
+	"github.com/str20tbl/config"
 )
 
 // The LogHandler defines the interface to handle the log records.

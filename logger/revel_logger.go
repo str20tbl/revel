@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/revel/log15"
+	"github.com/str20tbl/log15"
 )
 
 // This type implements the MultiLogger.

@@ -19,7 +19,7 @@ branches:
     - develop
 
 services:
-  # github.com/str20tbl/revel/cache
+  # github.com/str20tbl/str20tbl/cache
   - memcache
   - redis-server
 
@@ -47,19 +47,19 @@ install:
   - export REVEL_BRANCH="develop"
   - 'if [[ "$TRAVIS_BRANCH" == "master" ]]; then export REVEL_BRANCH="master"; fi'
   - 'echo "Travis branch: $TRAVIS_BRANCH, Revel dependency branch: $REVEL_BRANCH"'
-  - git clone -b $REVEL_BRANCH git://github.com/revel/modules ../modules/
-  - git clone -b $REVEL_BRANCH git://github.com/revel/cmd ../cmd/
-  - git clone -b $REVEL_BRANCH git://github.com/revel/config ../config/
-  - git clone -b $REVEL_BRANCH git://github.com/revel/cron ../cron/
-  - git clone -b $REVEL_BRANCH git://github.com/revel/examples ../examples/
-  - go get -t -v github.com/str20tbl/revel/...
+  - git clone -b $REVEL_BRANCH git://github.com/str20tbl/modules ../modules/
+  - git clone -b $REVEL_BRANCH git://github.com/str20tbl/cmd ../cmd/
+  - git clone -b $REVEL_BRANCH git://github.com/str20tbl/config ../config/
+  - git clone -b $REVEL_BRANCH git://github.com/str20tbl/cron ../cron/
+  - git clone -b $REVEL_BRANCH git://github.com/str20tbl/examples ../examples/
+  - go get -t -v github.com/str20tbl/str20tbl/...
 
 script:
   - |
     if [[ "$TRAVIS_OS_NAME" != "windows" ]]; then
-      go test -v github.com/str20tbl/revel/...
+      go test -v github.com/str20tbl/str20tbl/...
     else
-      go test -v github.com/str20tbl/revel/.
+      go test -v github.com/str20tbl/str20tbl/.
     fi
 
 matrix:

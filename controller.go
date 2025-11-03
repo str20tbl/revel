@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/str20tbl/revel/logger"
-	"github.com/str20tbl/revel/session"
-	"github.com/str20tbl/revel/utils"
+	"github.com/str20tbl/str20tbl/logger"
+	"github.com/str20tbl/str20tbl/session"
+	"github.com/str20tbl/str20tbl/utils"
 )
 
 // Controller Revel's controller structure that gets embedded in user defined
@@ -391,7 +391,7 @@ func (c *Controller) SetTypeAction(controllerName, methodName string, typeOfCont
 	// Look up the controller and method types.
 	if typeOfController == nil {
 		if c.Type = ControllerTypeByName(controllerName, anyModule); c.Type == nil {
-			return errors.New("revel/controller: failed to find controller " + controllerName)
+			return errors.New("str20tbl/controller: failed to find controller " + controllerName)
 		}
 	} else {
 		c.Type = typeOfController
@@ -399,7 +399,7 @@ func (c *Controller) SetTypeAction(controllerName, methodName string, typeOfCont
 
 	// Note method name is case insensitive search
 	if c.MethodType = c.Type.Method(methodName); c.MethodType == nil {
-		return errors.New("revel/controller: failed to find action " + controllerName + "." + methodName)
+		return errors.New("str20tbl/controller: failed to find action " + controllerName + "." + methodName)
 	}
 
 	c.Name, c.MethodName = c.Type.Type.Name(), c.MethodType.Name

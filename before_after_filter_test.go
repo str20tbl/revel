@@ -30,7 +30,7 @@ func (f failingFilter) FailIfCalled(c *Controller, filterChain []Filter) {
 }
 
 func TestInterceptorsNotCalledIfBeforeReturns(t *testing.T) {
-	Init("prod", "github.com/str20tbl/revel/testdata", "")
+	Init("prod", "github.com/str20tbl/str20tbl/testdata", "")
 	controllers = make(map[string]*ControllerType)
 	RegisterController((*bafTestController)(nil), []*MethodType{
 		{

@@ -5,18 +5,18 @@
 
 [[str20tbl/revel](https://github.com/str20tbl/revel)]
 
-* bc0e27f Merge pull request #1552 from revel/1542_recursive_call
+* bc0e27f Merge pull request #1552 from str20tbl/1542_recursive_call
 * d202b93 Merge pull request #1448 from golddranks/master
 * 859e5b4 Merge pull request #1511 from jiro4989/patch-1
 * 90489b1 Merge pull request #1523 from KoichiWada/handle-sigterm
 * 347610c Merge branch 'develop' into handle-sigterm
 * 942bd2e Merge pull request #1525 from mikyk10/feature/adding-mime-compress
 * 2cb950f Merge pull request #1543 from dhiemaz/fixing-typos
-* aed0d1e Merge pull request #1550 from revel/bugfix/readme-install
+* aed0d1e Merge pull request #1550 from str20tbl/bugfix/readme-install
 * bc89379 Fixed log recursive call There was a recusive loop in the logger, this fixes it closes #1542
 * aa8a94d Merge pull request #1546 from braineet/master
 * 741d2c8 Corrects install command for new version of go
-* 65db3c0 Merge pull request #1549 from revel/bugfix/session-uuid
+* 65db3c0 Merge pull request #1549 from str20tbl/bugfix/session-uuid
 * 624f341 Merge branch 'develop' into bugfix/session-uuid
 * 5e99db8 Refactors session uuid to use google's package
 * 30f3424 Correction redis import
@@ -32,7 +32,7 @@
 * e12cd0e develop v1.1.0-dev
 * a29f37c Fix a bug when binding to pointer
 
-[[revel/cmd](https://github.com/revel/cmd)]
+[[str20tbl/cmd](https://github.com/str20tbl/cmd)]
 
 * 86b4670 Update README.md
 * bc376fb Merge pull request #211 from lujiacn/develop
@@ -40,7 +40,7 @@
 * c674084 Merge pull request #201 from ptman/lint
 * cfe1d97 Merge branch 'develop' into lint
 * 7f9f658 Merge pull request #209 from glaslos/patch-1
-* 126d20c Merge pull request #210 from revel/build_process_update
+* 126d20c Merge pull request #210 from str20tbl/build_process_update
 * 111264c updated go.mod
 * 4087c49 updated golang.org/x/tools, to avoid internal error: package xxx without types was imported from ...
 * 3602eb4 Merge branch 'develop' into patch-1
@@ -61,11 +61,11 @@
 * 3d924a0 Lint fixes
 * d64c7f1 develop v1.1.0-dev
 
-[[revel/config](https://github.com/revel/config)]
+[[str20tbl/config](https://github.com/str20tbl/config)]
 
 * no changes
 
-[[revel/modules](https://github.com/revel/modules)]
+[[str20tbl/modules](https://github.com/str20tbl/modules)]
 
 * 852ea71 Merge branch 'master' into develop
 * 789324e Merge pull request #105 from ptman/lint
@@ -73,12 +73,12 @@
 * 8dbd171 Lint fixes
 * 464e072 develop v1.1.0-dev
 
-[[revel/cron](https://github.com/revel/cron)]
+[[str20tbl/cron](https://github.com/str20tbl/cron)]
 
 * 031e64e Merge pull request #5 from ptman/lint
 * 7cfc261 Lint fixes
 
-[[revel/examples](https://github.com/revel/examples)]
+[[str20tbl/examples](https://github.com/str20tbl/examples)]
 
 * e51ed5a Merge pull request #54 from realbucksavage/master
 * c555714 Merge pull request #58 from teitei-tk/update_gorp_link
@@ -96,11 +96,11 @@
 [[str20tbl/revel.github.io](https://github.com/str20tbl/revel.github.io)]
 
 * 32d1cd9 Merge branch 'master' into develop
-* e72f206 Merge pull request #197 from revel/update_go_version
+* e72f206 Merge pull request #197 from str20tbl/update_go_version
 * 1ae75e8 Merge branch 'develop' into update_go_version
 * 75172ea develop v1.1.0-dev
 
-[[revel/heroku-buildpack-go-revel](https://github.com/revel/heroku-buildpack-go-revel)]
+[[str20tbl/heroku-buildpack-go-revel](https://github.com/str20tbl/heroku-buildpack-go-revel)]
 
 * no changes
 
@@ -138,7 +138,7 @@
 * 16f5fef Remove a stray println call.
 * 60c3d7a develop v1.0.0-dev
 
-[[revel/cmd](https://github.com/revel/cmd)]
+[[str20tbl/cmd](https://github.com/str20tbl/cmd)]
 
 * d8117a3 Merge pull request #186 from notzippy/go-mod
 * 6371373 Removed version update Version control is maintained through go.mod file Modified harness to only kill the application if not responded after 60 seconds in windows
@@ -181,23 +181,23 @@
 * 7dce3d8 fixed import "C"
 * 5c8d5bc develop v1.0.0-dev
 
-[[revel/config](https://github.com/revel/config)]
+[[str20tbl/config](https://github.com/str20tbl/config)]
 
 * no changes
 
-[[revel/modules](https://github.com/revel/modules)]
+[[str20tbl/modules](https://github.com/str20tbl/modules)]
 
-* e1fdc01 Merge pull request #103 from revel/master
+* e1fdc01 Merge pull request #103 from str20tbl/master
 * 80d53e2 Merge pull request #102 from notzippy/go-mod
 * 2048fce Updated build processor
 * 19728d3 Added gomod removed vendor specific imports
 * 515369e develop v1.0.0-dev
 
-[[revel/cron](https://github.com/revel/cron)]
+[[str20tbl/cron](https://github.com/str20tbl/cron)]
 
 * no changes
 
-[[revel/examples](https://github.com/revel/examples)]
+[[str20tbl/examples](https://github.com/str20tbl/examples)]
 
 * 2d2968c Merge pull request #57 from notzippy/go-mod
 * dc75997 Updated examples Updated booking app to go.mod Updated chat, facebook, others app to add in go file in the root Updated travis to run tests in windows Updated travis to exclude testing fasthttp on windows
@@ -212,7 +212,7 @@
 * 67b088f Same site cookie setting
 * f5c5cb0 Corrected issues
 * bba502d Update for gomod docs
-* 9765ef0 Merge remote-tracking branch 'revel/master' into develop
+* 9765ef0 Merge remote-tracking branch 'str20tbl/master' into develop
 * eedc235 fixed spelling error
 * 9b9270a Explain return value when session value not found
 * 24abe9a Merge pull request #184 from manfordbenjamin/master
@@ -220,7 +220,7 @@
 * 844fe5d Revamp homepage
 * ef54af7 develop v1.0.0-dev
 
-[[revel/heroku-buildpack-go-revel](https://github.com/revel/heroku-buildpack-go-revel)]
+[[str20tbl/heroku-buildpack-go-revel](https://github.com/str20tbl/heroku-buildpack-go-revel)]
 
 * no changes
 
@@ -251,14 +251,14 @@ revel.ERROR, revel.TRACE, revel.DEBUG, revel.WARN have been removed
 
 Function name change `revel.OnAppStop` Replaced revel.OnAppShutdown 
 
-revel.SimpleStack was moved to github.com/str20tbl/revel/utils.SimpleStack
+revel.SimpleStack was moved to github.com/str20tbl/str20tbl/utils.SimpleStack
 
 ### New packages required
 #### Revel Framework
 * github.com/twinj/uuid (str20tbl/revel session ID generation)
 
 #### Revel Cmd
-* github.com/kr/pty (revel/cmd capture output of dep tool)
+* github.com/kr/pty (str20tbl/cmd capture output of dep tool)
 
 ### Package changes
 #### Revel Framework 
@@ -303,22 +303,22 @@ revel.SimpleStack was moved to github.com/str20tbl/revel/utils.SimpleStack
 
 #### Revel Cmd changes
 See [manual](http://revel.github.io/manual/tool.html) for more information on the flags and new features
-* Rewrote revel/cmd package so it has no dependencies on str20tbl/revel - future releases for revel/cmd will not be on the same schedule as str20tbl/revel
-* Added flag support to revel/cmd ,
+* Rewrote str20tbl/cmd package so it has no dependencies on str20tbl/revel - future releases for str20tbl/cmd will not be on the same schedule as str20tbl/revel
+* Added flag support to str20tbl/cmd ,
 * Added automatic vendor creation flag, when enabled a vendor folder will be added and used to the project
 * Added [DEFAULT] section to message skeleton so multiple lines work
 * If port specified is 0 then proxy can will run on a random free port
 * Split main file into two files so it may be invoked using other methods
 * Added ability to only monitor and update build files (without running a proxy)
-* Auto download str20tbl/revel, revel/cmd - if you point your GOPATH to an empty directory the `revel` tool will still be able to create a new project
+* Auto download str20tbl/revel, str20tbl/cmd - if you point your GOPATH to an empty directory the `revel` tool will still be able to create a new project
 * Made application path smarter. Now supports absolute paths and relatives paths.
 * modified `revel run` to pass in json code to the `revel.Init` function in place of the `mode` field. This allows for dynamic information to be passed to the Revel Server. This can be disabled by using  this flag ` --historic-run-mode`
 * modified `revel new` added `-V` to auto create the vendor folder inside the application along with the Gopkg.toml file.
 * modified `revel new` added `-r` to run the application after creating it.
 
-### revel/module
+### str20tbl/module
 * Enhanced gorp module to make database schema available
-* Added server-engine  server-engine/gohttptest and a testsuite file that implements all the methods from revel/testsuite. This test engine as an alpha implementation to be able to run `go test` from the command line. Meaning your tests can now live beside the controller. An example testsuite is [here](https://github.com/revel/examples/blob/develop/booking/app/controllers/app_test.go)
+* Added server-engine  server-engine/gohttptest and a testsuite file that implements all the methods from str20tbl/testsuite. This test engine as an alpha implementation to be able to run `go test` from the command line. Meaning your tests can now live beside the controller. An example testsuite is [here](https://github.com/str20tbl/examples/blob/develop/booking/app/controllers/app_test.go)
 * Updated static module, moved a structure into a model package
 
 ### str20tbl/revel
@@ -349,19 +349,19 @@ This release is focused on improving the security and resolving some issues.
 
 **There are no breaking changes from version 0.18**
 
-[[revel/cmd](https://github.com/revel/cmd)]
-* Improved vendor folder detection revel/cmd#117
-* Added ordering of controllers so order remains consistent in main.go revel/cmd#112
-* Generate same value of `AppVersion` regardless of where Revel is run revel/cmd#108
-* Added referrer policy security header revel/cmd#114
+[[str20tbl/cmd](https://github.com/str20tbl/cmd)]
+* Improved vendor folder detection str20tbl/cmd#117
+* Added ordering of controllers so order remains consistent in main.go str20tbl/cmd#112
+* Generate same value of `AppVersion` regardless of where Revel is run str20tbl/cmd#108
+* Added referrer policy security header str20tbl/cmd#114
 
-[[revel/modules](https://github.com/revel/modules)]
-* Added directory representation to static module revel/modules#46
-* Gorp enhancements (added abstraction layer for transactions and database connection so both can be used), Added security fix for CSRF module revel/modules#68
-* Added authorization configuration options to job page revel/modules#44
+[[str20tbl/modules](https://github.com/str20tbl/modules)]
+* Added directory representation to static module str20tbl/modules#46
+* Gorp enhancements (added abstraction layer for transactions and database connection so both can be used), Added security fix for CSRF module str20tbl/modules#68
+* Added authorization configuration options to job page str20tbl/modules#44
 
-[[revel/examples](https://github.com/revel/examples)]
-* General improvements and examples added revel/examples#39  revel/examples#40
+[[str20tbl/examples](https://github.com/str20tbl/examples)]
+* General improvements and examples added str20tbl/examples#39  str20tbl/examples#40
 
 ## v0.18
 
@@ -374,10 +374,10 @@ Everything else should just work....
 The server engine implementation is described in the [docs](http://revel.github.io/manual/server-engine.html)
 * Allow binding to a structured map. str20tbl/revel#998 
 Have a structure inside a map object which will be realized properly from params
-* Gorm module revel/modules/#51
+* Gorm module str20tbl/modules/#51
 Added transaction controller
-* Gorp module revel/modules/#52
-* Autorun on startup in develop mode revel/cmd#95
+* Gorp module str20tbl/modules/#52
+* Autorun on startup in develop mode str20tbl/cmd#95
 Start the application without doing a request first using revel run ....
 * Logger update str20tbl/revel#1213
 Configurable logger and added context logging on controller via controller.Log
@@ -387,7 +387,7 @@ Controller methods will be automatically detected and called - similar to interc
 Added validation for floats
 * Timeago template function str20tbl/revel#1207
 Added timeago function to Revel template functions
-* Authorization to jobs module revel/module#44
+* Authorization to jobs module str20tbl/module#44
 Added ability to specify authorization to access the jobs module routes
 * Add MessageKey, ErrorKey methods to ValidationResult object str20tbl/revel#1215
 This allows the message translator to translate the keys added. So model objects can send out validation codes
@@ -485,7 +485,7 @@ func (c WebSocket) RoomSocket(user string, ws revel.ServerWebSocket) revel.Resul
 
 ### Features
 
-* Pluggable server engine support. You can now implement **your own server engine**. This means if you need to listen to more then 1 IP address or port you can implement a custom server engine to do this. By default Revel uses GO http server, but also available is fasthttp server in the revel/modules repository. See the docs for more information on how to implement your own engine.
+* Pluggable server engine support. You can now implement **your own server engine**. This means if you need to listen to more then 1 IP address or port you can implement a custom server engine to do this. By default Revel uses GO http server, but also available is fasthttp server in the str20tbl/modules repository. See the docs for more information on how to implement your own engine.
 
 ### Enhancements
 * Controller instances are cached for reuse. This speeds up the request response time and prevents unnecessary garbage collection cycles.  
@@ -507,24 +507,24 @@ func (c WebSocket) RoomSocket(user string, ws revel.ServerWebSocket) revel.Resul
 * Changed url validation logic to regex
 * Added new validation mehtods (IPAddr,MacAddr,Domain,URL,PureText)
 
-[[revel/cmd](https://github.com/revel/cmd)]
+[[str20tbl/cmd](https://github.com/str20tbl/cmd)]
 
 * no changes
 
-[[revel/config](https://github.com/revel/config)]
+[[str20tbl/config](https://github.com/str20tbl/config)]
 
 * no changes
 
-[[revel/modules](https://github.com/revel/modules)]
+[[str20tbl/modules](https://github.com/str20tbl/modules)]
 
 * Added Gorm module
 
-[[revel/cron](https://github.com/revel/cron)]
+[[str20tbl/cron](https://github.com/str20tbl/cron)]
 
 * Updated cron task manager
 * Added ability to run a specific job, reschedules job if cron is running.
 
-[[revel/examples](https://github.com/revel/examples)]
+[[str20tbl/examples](https://github.com/str20tbl/examples)]
 
 * Gorm module (Example)
 
@@ -539,8 +539,8 @@ Deprecating support for golang versions prior to 1.6
 ### Features
 
 * Modular Template Engine #1170 
-* Pongo2 engine driver added revel/modules#39
-* Ace engine driver added revel/modules#40
+* Pongo2 engine driver added str20tbl/modules#39
+* Ace engine driver added str20tbl/modules#40
 * Added i18n template support #746 
 
 ### Enhancements
@@ -548,15 +548,15 @@ Deprecating support for golang versions prior to 1.6
 * JSON request binding #1161 
 * revel.SetSecretKey function added #1127 
 * ResolveFormat now looks at the extension as well (this sets the content type) #936 
-* Updated command to run tests using the configuration revel/cmd#61
+* Updated command to run tests using the configuration str20tbl/cmd#61
 
 ### Bug fixes
 
-* Updated documentation typos revel/modules#37
+* Updated documentation typos str20tbl/modules#37
 * Updated order of parameter map assignment #1155 
 * Updated cookie lifetime for firefox #1174 
 * Added test path for modules, so modules will run tests as well #1162 
-* Fixed go profiler module revel/modules#20
+* Fixed go profiler module str20tbl/modules#20
 
 
 # v0.15.0
@@ -574,12 +574,12 @@ Deprecating support for golang versions prior to 1.7
 
 ### Enhancements
 
-* Update and improve docs revel/examples#17 revel/cmd#85
+* Update and improve docs str20tbl/examples#17 str20tbl/cmd#85
 
 ### Bug fixes
 
 * Prevent XSS str20tbl/revel#1153
-* Improve error checking for go version detection revel/cmd#86
+* Improve error checking for go version detection str20tbl/cmd#86
 
 # v0.14.0
 @notzippy released this on 2017-03-24
@@ -624,8 +624,8 @@ Deprecating support for golang versions prior to 1.7
 - `str20tbl/revel`:
   - Request access log PR #1059, PR #913, #1055
   - Messages loaded from modules too PR #828
-- `revel/cmd`:
-  - Added `revel version` command emits the revel version and go version revel/cmd#19
+- `str20tbl/cmd`:
+  - Added `revel version` command emits the revel version and go version str20tbl/cmd#19
 
 #### Enhancements
 - `str20tbl/revel`:
@@ -644,25 +644,25 @@ Deprecating support for golang versions prior to 1.7
   - Added i18n settings support unknown format PR #852
   - i18n: Make Message Translation pluggable PR #768
   - jQuery `min-2.2.4` & Bootstrap `min-3.3.6` version updated in `skeleton/public` #1063
-- `revel/cmd`:
+- `str20tbl/cmd`:
   - Revel identifies current `GOPATH` and performs `new` command; relative to directory str20tbl/revel#1004
-  - Installs package dependencies during a build PR revel/cmd#43
-  - Non-200 response of test case request will correctly result into error PR revel/cmd#38
-  - Websockets SSL support in `dev` mode PR revel/cmd#32
-  - Won't yell about non-existent directory while cleaning PR revel/cmd#31, #908
+  - Installs package dependencies during a build PR str20tbl/cmd#43
+  - Non-200 response of test case request will correctly result into error PR str20tbl/cmd#38
+  - Websockets SSL support in `dev` mode PR str20tbl/cmd#32
+  - Won't yell about non-existent directory while cleaning PR str20tbl/cmd#31, #908
     - [x] non-fatal errors when building #908
-  - Improved warnings about route generation PR revel/cmd#25
-  - Command is Symlink aware PR revel/cmd#20
-  - `revel package` & `revel build` now supports environment mode PR revel/cmd#14
-  - `revel clean` now cleans generated routes too PR revel/cmd#6
-- `revel/config`:
-  - Upstream `robfig/config` refresh and import path updated from `github.com/str20tbl/revel/config` to `github.com/revel/config`, PR #868
-  - Config loading order and external configuration to override application configuration revel/config#4 [commit](https://github.com/str20tbl/revel/commit/f3a422c228994978ae0a5dd837afa97248b26b41)
-  - Application config error will produce insight on error PR revel/config#3 [commit](https://github.com/revel/config/commit/85a123061070899a82f59c5ef6187e8fb4457f64)
-- `revel/modules`:
+  - Improved warnings about route generation PR str20tbl/cmd#25
+  - Command is Symlink aware PR str20tbl/cmd#20
+  - `revel package` & `revel build` now supports environment mode PR str20tbl/cmd#14
+  - `revel clean` now cleans generated routes too PR str20tbl/cmd#6
+- `str20tbl/config`:
+  - Upstream `robfig/config` refresh and import path updated from `github.com/str20tbl/str20tbl/config` to `github.com/str20tbl/config`, PR #868
+  - Config loading order and external configuration to override application configuration str20tbl/config#4 [commit](https://github.com/str20tbl/str20tbl/commit/f3a422c228994978ae0a5dd837afa97248b26b41)
+  - Application config error will produce insight on error PR str20tbl/config#3 [commit](https://github.com/str20tbl/config/commit/85a123061070899a82f59c5ef6187e8fb4457f64)
+- `str20tbl/modules`:
   - Testrunner enhancements
     - Minor improvement on testrunner module PR #820, #895
-    - Add Test Runner panels per test group PR revel/modules#12
+    - Add Test Runner panels per test group PR str20tbl/modules#12
 - `str20tbl/revel.github.io`:
   - Update `index.md` and homepage (change how samples repo is installed) PR [#85](https://github.com/str20tbl/revel.github.io/pull/85)
   - Couple of UI improvements PR [#93](https://github.com/str20tbl/revel.github.io/pull/93)
@@ -687,7 +687,7 @@ This is a minor release to address a critical bug (#824) in v0.11.2.
 Everybody is strongly encouraged to rebuild their projects with the latest version of Revel. To do it, execute the commands:
 
 ``` sh
-$ go get -u github.com/revel/cmd/revel
+$ go get -u github.com/str20tbl/cmd/revel
 
 $ revel build github.com/myusername/myproject /path/to/destination/folder
 ```
@@ -701,7 +701,7 @@ This is a minor release to address a critical bug in v0.11.0.
 Everybody is strongly encouraged to rebuild their projects with the latest version of Revel. To do it, execute the commands:
 
 ``` sh
-$ go get -u github.com/revel/cmd/revel
+$ go get -u github.com/str20tbl/cmd/revel
 
 $ revel build github.com/myusername/myproject /path/to/destination/folder
 ```
@@ -724,7 +724,7 @@ Changes since v0.11.3:
 ``` go
 package tests
 
-import "github.com/str20tbl/revel/testing"
+import "github.com/str20tbl/str20tbl/testing"
 
 type AppTest struct {
     testing.TestSuite
@@ -733,15 +733,15 @@ type AppTest struct {
 1. We've relocated modules to a dedicated repo. Make sure you update your `conf/app.conf`. For example, change:
 
 ``` ini
-module.static=github.com/str20tbl/revel/modules/static
-module.testrunner = github.com/str20tbl/revel/modules/testrunner
+module.static=github.com/str20tbl/str20tbl/modules/static
+module.testrunner = github.com/str20tbl/str20tbl/modules/testrunner
 ```
 
 to the new paths:
 
 ``` ini
-module.static=github.com/revel/modules/static
-module.testrunner = github.com/revel/modules/testrunner
+module.static=github.com/str20tbl/modules/static
+module.testrunner = github.com/str20tbl/modules/testrunner
 ```
 
 ## [ROADMAP] Focus: Improve Internal Organization
@@ -750,45 +750,45 @@ The majority of our effort here is increasing the modularity of the code within 
 - `str20tbl/revel.github.io`
   - [x] Improve docs #[43](https://github.com/str20tbl/revel.github.io/pull/43)
 - `str20tbl/revel`:
-  - [x] Move the `str20tbl/revel/harness` to the `revel/cmd` repo since it's only used during build time. #[714](https://github.com/str20tbl/revel/issues/714)
-  - [x] Move `str20tbl/revel/modules` to the `revel/modules` repo #[785](https://github.com/str20tbl/revel/issues/785)
-  - [x] Move `str20tbl/revel/samples` to the `revel/samples` repo #[784](https://github.com/str20tbl/revel/issues/784)
-  - [x] `testing` TestSuite #[737](https://github.com/str20tbl/revel/issues/737) #[810](https://github.com/str20tbl/revel/issues/810)
-  - [x] Feature/sane http timeout defaults #[837](https://github.com/str20tbl/revel/issues/837) PR#[843](https://github.com/str20tbl/revel/issues/843) Bug Fix PR#[860](https://github.com/str20tbl/revel/issues/860)
-  - [x] Eagerly load templates in dev mode #[353](https://github.com/str20tbl/revel/issues/353) PR#[844](https://github.com/str20tbl/revel/pull/844)
-  - [x] Add an option to trim whitespace from rendered HTML #[800](https://github.com/str20tbl/revel/issues/800)
-  - [x] Remove built-in mailer in favor of 3rd party package #[783](https://github.com/str20tbl/revel/issues/783)
-  - [x] Allow local reverse proxy access to jobs module status page for IPv4/6 #[481](https://github.com/str20tbl/revel/issues/481) PR#[6](https://github.com/revel/modules/pull/6) PR#[7](https://github.com/revel/modules/pull/7)
-  - [x] Add default http.Status code for render methods. #[728](https://github.com/str20tbl/revel/issues/728)
-  - [x] add domain for cookie #[770](https://github.com/str20tbl/revel/issues/770) PR#[882](https://github.com/str20tbl/revel/pull/882)
-  - [x] production mode panic bug #[831](https://github.com/str20tbl/revel/issues/831) PR#[881](https://github.com/str20tbl/revel/pull/881)
-  - [x] Fixes template loading order whether watcher is enabled or not #[844](https://github.com/str20tbl/revel/issues/844)
-  - [x] Fixes reverse routing wildcard bug PR#[886](https://github.com/str20tbl/revel/pull/886) #[869](https://github.com/str20tbl/revel/issues/869)
-  - [x] Fixes router app start bug without routes. PR #[855](https://github.com/str20tbl/revel/pull/855)
-  - [x] Friendly URL template errors; Fixes template `url` func "index out of range" when param is `undefined` #[811](https://github.com/str20tbl/revel/issues/811) PR#[880](https://github.com/str20tbl/revel/pull/880)
-  - [x] Make result compression conditional PR#[888](https://github.com/str20tbl/revel/pull/888)
-  - [x] ensure routes are loaded before returning from OnAppStart callback PR#[884](https://github.com/str20tbl/revel/pull/884)
-  - [x] Use "302 Found" HTTP code for redirect PR#[900](https://github.com/str20tbl/revel/pull/900)
-  - [x] Fix broken fake app tests PR#[899](https://github.com/str20tbl/revel/pull/899)
-  - [x] Optimize search of template names PR#[885](https://github.com/str20tbl/revel/pull/885)
-- `revel/cmd`:
-  - [x] track current Revel version #[418](https://github.com/str20tbl/revel/issues/418) PR#[858](https://github.com/str20tbl/revel/pull/858)
-  - [x] log path error After revel build? #[763](https://github.com/str20tbl/revel/issues/763)
-  - [x] Use a separate directory for revel project binaries #[17](https://github.com/revel/cmd/pull/17) #[819](https://github.com/str20tbl/revel/issues/819)
-  - [x] Overwrite generated app files instead of deleting directory #[551](https://github.com/str20tbl/revel/issues/551) PR#[23](https://github.com/revel/cmd/pull/23)
-- `revel/modules`:
-  - [x] Adds runtime pprof/trace support #[9](https://github.com/revel/modules/pull/9)
+  - [x] Move the `str20tbl/str20tbl/harness` to the `str20tbl/cmd` repo since it's only used during build time. #[714](https://github.com/str20tbl/str20tbl/issues/714)
+  - [x] Move `str20tbl/str20tbl/modules` to the `str20tbl/modules` repo #[785](https://github.com/str20tbl/str20tbl/issues/785)
+  - [x] Move `str20tbl/str20tbl/samples` to the `str20tbl/samples` repo #[784](https://github.com/str20tbl/str20tbl/issues/784)
+  - [x] `testing` TestSuite #[737](https://github.com/str20tbl/str20tbl/issues/737) #[810](https://github.com/str20tbl/str20tbl/issues/810)
+  - [x] Feature/sane http timeout defaults #[837](https://github.com/str20tbl/str20tbl/issues/837) PR#[843](https://github.com/str20tbl/str20tbl/issues/843) Bug Fix PR#[860](https://github.com/str20tbl/str20tbl/issues/860)
+  - [x] Eagerly load templates in dev mode #[353](https://github.com/str20tbl/str20tbl/issues/353) PR#[844](https://github.com/str20tbl/str20tbl/pull/844)
+  - [x] Add an option to trim whitespace from rendered HTML #[800](https://github.com/str20tbl/str20tbl/issues/800)
+  - [x] Remove built-in mailer in favor of 3rd party package #[783](https://github.com/str20tbl/str20tbl/issues/783)
+  - [x] Allow local reverse proxy access to jobs module status page for IPv4/6 #[481](https://github.com/str20tbl/str20tbl/issues/481) PR#[6](https://github.com/str20tbl/modules/pull/6) PR#[7](https://github.com/str20tbl/modules/pull/7)
+  - [x] Add default http.Status code for render methods. #[728](https://github.com/str20tbl/str20tbl/issues/728)
+  - [x] add domain for cookie #[770](https://github.com/str20tbl/str20tbl/issues/770) PR#[882](https://github.com/str20tbl/str20tbl/pull/882)
+  - [x] production mode panic bug #[831](https://github.com/str20tbl/str20tbl/issues/831) PR#[881](https://github.com/str20tbl/str20tbl/pull/881)
+  - [x] Fixes template loading order whether watcher is enabled or not #[844](https://github.com/str20tbl/str20tbl/issues/844)
+  - [x] Fixes reverse routing wildcard bug PR#[886](https://github.com/str20tbl/str20tbl/pull/886) #[869](https://github.com/str20tbl/str20tbl/issues/869)
+  - [x] Fixes router app start bug without routes. PR #[855](https://github.com/str20tbl/str20tbl/pull/855)
+  - [x] Friendly URL template errors; Fixes template `url` func "index out of range" when param is `undefined` #[811](https://github.com/str20tbl/str20tbl/issues/811) PR#[880](https://github.com/str20tbl/str20tbl/pull/880)
+  - [x] Make result compression conditional PR#[888](https://github.com/str20tbl/str20tbl/pull/888)
+  - [x] ensure routes are loaded before returning from OnAppStart callback PR#[884](https://github.com/str20tbl/str20tbl/pull/884)
+  - [x] Use "302 Found" HTTP code for redirect PR#[900](https://github.com/str20tbl/str20tbl/pull/900)
+  - [x] Fix broken fake app tests PR#[899](https://github.com/str20tbl/str20tbl/pull/899)
+  - [x] Optimize search of template names PR#[885](https://github.com/str20tbl/str20tbl/pull/885)
+- `str20tbl/cmd`:
+  - [x] track current Revel version #[418](https://github.com/str20tbl/str20tbl/issues/418) PR#[858](https://github.com/str20tbl/str20tbl/pull/858)
+  - [x] log path error After revel build? #[763](https://github.com/str20tbl/str20tbl/issues/763)
+  - [x] Use a separate directory for revel project binaries #[17](https://github.com/str20tbl/cmd/pull/17) #[819](https://github.com/str20tbl/str20tbl/issues/819)
+  - [x] Overwrite generated app files instead of deleting directory #[551](https://github.com/str20tbl/str20tbl/issues/551) PR#[23](https://github.com/str20tbl/cmd/pull/23)
+- `str20tbl/modules`:
+  - [x] Adds runtime pprof/trace support #[9](https://github.com/str20tbl/modules/pull/9)
 - Community Goals:
-  - [x] Issue labels #[545](https://github.com/str20tbl/revel/issues/545)
-    - [x] Sync up labels/milestones in other repos #[721](https://github.com/str20tbl/revel/issues/721)
+  - [x] Issue labels #[545](https://github.com/str20tbl/str20tbl/issues/545)
+    - [x] Sync up labels/milestones in other repos #[721](https://github.com/str20tbl/str20tbl/issues/721)
   - [x] Update the Revel Manual to reflect current features
     - [x] [str20tbl/revel.github.io/32](https://github.com/str20tbl/revel.github.io/issues/32)
     - [x] [str20tbl/revel.github.io/39](https://github.com/str20tbl/revel.github.io/issues/39)
-    - [x] Docs are obsolete, inaccessible TestRequest.testSuite #[791](https://github.com/str20tbl/revel/issues/791)
-    - [x] Some questions about revel & go docs #[793](https://github.com/str20tbl/revel/issues/793)
-  - [x] RFCs to organize features #[827](https://github.com/str20tbl/revel/issues/827)
+    - [x] Docs are obsolete, inaccessible TestRequest.testSuite #[791](https://github.com/str20tbl/str20tbl/issues/791)
+    - [x] Some questions about revel & go docs #[793](https://github.com/str20tbl/str20tbl/issues/793)
+  - [x] RFCs to organize features #[827](https://github.com/str20tbl/str20tbl/issues/827)
 
-[Full list of commits](https://github.com/str20tbl/revel/compare/v0.11.3...v0.12.0)
+[Full list of commits](https://github.com/str20tbl/str20tbl/compare/v0.11.3...v0.12.0)
 
 
 # v0.11.0
@@ -826,7 +826,7 @@ Changes since v0.10:
 
 [FTR]   #606    CSRF Support
 
-[Full list of commits](https://github.com/str20tbl/revel/compare/v0.10.0...v0.11.0)
+[Full list of commits](https://github.com/str20tbl/str20tbl/compare/v0.10.0...v0.11.0)
 
 
 # v0.10.0
@@ -879,7 +879,7 @@ Changes since v0.9.1:
 - [ENH] #461 - Cron jobs not started until I pull a page
 - [ENH] #323 - disable session/set-cookie for `Static.Serve()`
 
-[Full list of commits](https://github.com/str20tbl/revel/compare/v0.9.1...v0.10.0)
+[Full list of commits](https://github.com/str20tbl/str20tbl/compare/v0.9.1...v0.10.0)
 
 
 # v0.9.1
@@ -891,7 +891,7 @@ Changes since v0.9.0:
 - [BUG] #529 - Wrong path was used to determine existence of `.git`
 - [BUG] #532 - Fix typo for new type `ValidEmail`
 
-The full list of commits can be found [here](https://github.com/str20tbl/revel/compare/v0.9.0...v0.9.1).
+The full list of commits can be found [here](https://github.com/str20tbl/str20tbl/compare/v0.9.0...v0.9.1).
 
 
 # v0.9.0
@@ -907,10 +907,10 @@ You'll need to manually update your apps to work with the new import path. This 
 $ cd your_app_folder
 $ go get -u github.com/howeyc/fsnotify  # needs updating
 $ go get github.com/str20tbl/revel
-$ go get github.com/revel/cmd/revel     # command line tools have moved
+$ go get github.com/str20tbl/cmd/revel     # command line tools have moved
 ```
 
-**Note:** if you have references to `github.com/robfig/str20tbl/revel` in any files, you need to replace them with `github.com/revel/cmd/revel` _before_ replacing `github.com/robfig/revel`! (note the prefix collision)
+**Note:** if you have references to `github.com/robfig/str20tbl/revel` in any files, you need to replace them with `github.com/str20tbl/cmd/revel` _before_ replacing `github.com/robfig/revel`! (note the prefix collision)
 
 If you have any trouble upgrading or notice something we missed, feel free to hop in the IRC channel (#revel on Freenode) or send the mailing list a message.
 
@@ -936,7 +936,7 @@ Changes since v0.8:
 - [ENH] #508 - Support arbitrary network types
 - [ENH] #516 - Add Date and Message-Id mail headers
 
-The full list of commits can be found [here](https://github.com/str20tbl/revel/compare/v0.8...v0.9.0).
+The full list of commits can be found [here](https://github.com/str20tbl/str20tbl/compare/v0.8...v0.9.0).
 
 
 # v0.8
