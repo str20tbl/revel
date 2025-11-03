@@ -10,8 +10,8 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/mattn/go-colorable v0.1.14
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/revel/config v1.1.0
-	github.com/revel/log15 v2.11.20+incompatible
+	github.com/str20tbl/config v0.0.0-20181008051942-a81c4105c368
+	github.com/str20tbl/log15 v0.0.0-20171212200325-793412a67da6
 	github.com/str20tbl/pathtree v0.0.0-20140121041023-41257a1839e9
 	github.com/stretchr/testify v1.11.1
 	github.com/xeonx/timeago v1.0.0-rc5
@@ -25,7 +25,6 @@ require (
 	github.com/inconshreveable/log15 v2.16.0+incompatible // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9 // indirect
 	golang.org/x/sys v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
